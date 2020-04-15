@@ -1,2 +1,2 @@
 # google-homepage-clone
-Clone of Google Homepage with hmtl and css
+I copy this Google homepage to practice HTML and CSS
