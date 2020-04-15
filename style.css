@@ -1,0 +1,188 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;    
+    min-width: 960px;      
+}
+
+
+/* Topo */
+.top {    
+    padding: 15.5px 32px 0;            
+    text-align: right;    
+    font-size: 13px;
+}
+
+.top a {    
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 9px;
+    text-decoration: none;
+    position: relative;
+}
+
+.top a:hover {
+    text-decoration: underline;
+}
+
+.quadrado {    
+    opacity: .85;
+}
+
+.quadrado:hover {
+    opacity: 1;
+}
+
+.button-login {
+    letter-spacing: 0.2px;
+    padding: 0 12px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: bold;    
+    background: linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+    outline: none;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.button-login:active {
+    box-shadow: 1px #000;
+}
+
+/* Centro */
+
+.center {    
+    margin: 93px auto 0;    
+    text-align: center;       
+}
+
+.search-box {
+    width: 582px; 
+    margin: auto;
+    padding-top: 6px;    
+}
+
+.search-border {        
+    border: 1px solid #dfe1e5;    
+    border-radius: 24px;      
+    position: relative;        
+    padding: 10px;    
+    box-shadow: none;
+}
+
+.search-border:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 255, 229, 0);
+}
+
+.lupa {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 9px;
+    background-image: url('img/lupa.webp');
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.box-search-typing {
+    width: 470px;    
+    margin-right: 30px;
+    outline: none;
+    border: none;
+}
+
+.keyboard {
+    position: absolute;
+    right: 43px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.microphone {
+    width: 22px;
+    height: 22px;    
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    cursor: pointer;
+}
+
+/* Botoes */
+
+.buttons {
+    padding-top: 18px;
+}
+
+.buttons button {
+    background: linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+/* Footer */
+
+.footer {        
+    position: fixed;    
+    bottom: 0;
+    font-size: 14px;    
+    width: 100%;    
+    color: #5f6368;    
+    min-width: 960px;    
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    line-height: 40px;        
+}
+
+.footer a {
+    text-decoration: none;        
+    color: #5f6368;
+    padding-left: 24px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.nation {   
+    padding-left: 30px;        
+}
+
+.creator {
+    float: right;
+    padding-right: 30px;
+}
+
+.left {
+    position: absolute;  
+    text-align: left;    
+    border-top: 1px solid #e4e4e4;    
+    padding-left: 6px;
+}
+
+.right {            
+    border-top: 1px solid #e4e4e4;
+    white-space: nowrap;
+    text-align: right;
+    padding-right: 30px;
+}
