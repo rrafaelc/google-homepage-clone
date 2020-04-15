@@ -1,2 +1,2 @@
 # google-homepage-clone
-I copy this Google homepage to practice HTML and CSS
+I copied this Google homepage to practice HTML and CSS
